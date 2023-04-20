@@ -1,5 +1,9 @@
 # Vue 2.7.14 Provide/Inject Bug Reproducer
 
+https://github.com/vuejs/vue/issues/13005
+
+https://github.com/kaorun343/vue-property-decorator/issues/451
+
 Press the button repeatedly and watch console output.
 
 Three services (A, B, C) are injected into one component, which repeatedly calls each service one at a time looping over indefinitely.
